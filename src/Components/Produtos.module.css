@@ -1,0 +1,11 @@
+.produtos {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+}
+
+.produtos h1 {
+  margin-top: 8px;
+  font-size: 1.8rem;
+}
+

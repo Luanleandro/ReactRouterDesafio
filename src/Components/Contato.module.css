@@ -1,0 +1,27 @@
+.contato {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+}
+
+.dados h1 {
+  font-weight: bold;
+}
+
+.dados ul {
+  padding: 0.5rem 1rem;
+}
+
+.dados ul li {
+  padding: 0.2rem 0;
+  font-size: 18px;
+}
+
+.dados ul li::before {
+  content: '';
+  display: inline-block;
+  width: 20px;
+  height: 2px;
+  background-color: #ddd;
+  margin-right: 8px;
+}

@@ -1,0 +1,24 @@
+.header {
+  padding: 3rem 0;
+}
+
+.header ul {
+  display: flex;
+  margin-left: 0;
+  padding: 0;
+}
+
+.header ul li {
+  margin-right: 1rem;
+}
+
+.link {
+  font-size: 1.2rem;
+  padding: 0.5rem 1rem;
+  background-color: #eee;
+  border-radius: 8px;
+}
+
+:global(.active) {
+  background-color: #ddd;
+}

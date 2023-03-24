@@ -1,0 +1,23 @@
+.produto {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+}
+
+.produto img {
+  margin-bottom: 2rem;
+}
+
+.dados h1 {
+  margin-bottom: 1rem;
+}
+
+.dados span {
+  background-color: greenyellow;
+  padding: .5rem 1rem;
+}
+
+.dados p {
+  font-size: 1.2rem;
+  margin-top: 1.5rem;
+}
